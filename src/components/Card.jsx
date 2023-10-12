@@ -7,9 +7,7 @@ export default function Card({ result }) {
     <div className="cursor-pointer sm:p-3 hover:shadow-slate-400 sm:shadow-md rounded-lg sm:border sm:border-slate-400 sm:m-2 transition-shadow duration-200 group">
       <Link href={`/movie/${result.id}`}>
         <Image
-          src={`https://image.tmdb.org/t/p/original/${
-            result.backdrop_path || result.poster_path
-          } `}
+          src={`https://image.tmdb.org/t/p/w500/1E5baAaEse26fej7uHcjOgEE2t2.jpg`}
           width={500}
           height={300}
           className="sm:rounded-lg group-hover:opacity-80 transition-opacity duration-200"
@@ -20,7 +18,7 @@ export default function Card({ result }) {
             maxWidth: "100%",
             maxHeight: "auto",
           }}
-        />
+        ></Image>
         <div className="p-2">
           <p className="line-clamp-2 text-sm">{result.overview}</p>
           <h2 className="truncate text-lg font-bold py-2">
