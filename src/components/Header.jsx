@@ -16,9 +16,9 @@ export default function header() {
         <Link href="/">
           <h2 className="text-2xl">
             <span className="font-bold bg-amber-500 py-1 px-2 rounded-lg mr-1">
-              IMDb
+              FilMix
             </span>
-            <span className="text-xl hidden sm:inline">Clone</span>
+            <span className="text-xl hidden sm:inline">Search</span>
           </h2>
         </Link>
       </div>
