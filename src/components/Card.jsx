@@ -12,18 +12,18 @@ export default function Card({ result }) {
           }`}
           width={500}
           height={300}
-          className="sm:rounded-t-lg group-hover:opacity-80 transition-opacity duration-200"
+          className="sm:rounded-lg group-hover:opacity-80 transition-opacity duration-200"
           style={{
             maxWidth: "100%",
             height: "auto",
           }}
           placeholder="blur"
-          blurDataURL="/spinner.svg"
+          blurDataURL="/loading.svg"
           alt="image is not available"
         ></Image>
         <div className="p-2">
           <p className="line-clamp-2 text-md">{result.overview}</p>
-          <h2 className="truncate text-lg font-bold">
+          <h2 className="truncate text-lg font-bold py-2">
             {result.title || result.name}
           </h2>
           <p className="flex items-center">
