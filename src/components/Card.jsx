@@ -26,7 +26,7 @@ export default function Card({ result }) {
           <h2 className="truncate text-lg font-bold py-2">
             {result.title || result.name}
           </h2>
-          <p className="flex items-center">
+          <p className="flex items-center text-sm">
             {result.release_date || result.first_air_date}
             <FiThumbsUp className="h-5 mr-1 ml-3" /> {result.vote_count}
           </p>
